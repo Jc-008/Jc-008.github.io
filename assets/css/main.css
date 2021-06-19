@@ -2136,7 +2136,8 @@ input, select, textarea {
 			}
 
 		.thrifTee-img{
-			height:372px;
+			/* height:372px; */
+			height: 279px;
 		}
 
 		.image.avatar {
