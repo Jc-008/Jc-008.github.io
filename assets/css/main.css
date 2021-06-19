@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic"); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic');
 
 /*
 	Strata by HTML5 UP
@@ -99,7 +100,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: "'Roboto'", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2054,6 +2056,7 @@ input, select, textarea {
 			content: '';
 			display: block;
 			height: 100%;
+			/* height: 379px; */
 			left: 0;
 			opacity: 0.5;
 			position: absolute;
@@ -2136,8 +2139,8 @@ input, select, textarea {
 			}
 
 		.thrifTee-img{
-			/* height:372px; */
-			height: 279px;
+			height:372px;
+			/* height: 279px; */
 		}
 
 		.image.avatar {
@@ -2603,11 +2606,15 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-attachment: fixed,								fixed;
+		/* background-image: url("../../images/lines_of_code-L.jpg"), url("../../images/lines_of_code-L.jpg"); */
+		background-image: url("../../images/laptop_view3.jpg"), url("../../images/laptop_view3.jpg");
+		/* background-image: url("../../images/laptop_view4.jpg"), url("../../images/laptop_view4.jpg"); */
+		/* background-image: url("../../images/bg.jpg"), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		/* background-repeat: repeat,								no-repeat; */
+		background-repeat: no-repeat,								no-repeat;
+		background-size: 100vh,								100vh
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2661,7 +2668,9 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			/* color: rgba(255, 255, 255, 0.4); */
+			color: rgba(255, 255, 255, .8);
+			font-size: 25px;
 		}
 
 	#footer .copyright {
@@ -3089,7 +3098,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
