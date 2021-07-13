@@ -303,6 +303,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		width: 110%;
 	}
 
 		.row > * {
@@ -2055,7 +2056,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2133,19 +2134,22 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 102%;
+			/* width: 100%; */
 			/* width: 20rem; */
 		}
 
 			.image.fit img {
+				/* width: 95%; */
 				width: 100%;
 				/* width: 10rem */
 			}
 
-		.thrifTee-img{
-			height:372px;
-			/* height: 279px; */
-		}
+
+		/* .thrifTee-img{
+			height:353.797px;
+			width: 440.797px;
+		} */
 
 		.image.avatar {
 			border-radius: 100%;
@@ -2572,7 +2576,7 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 5em 0;
 	}
 
 		.work-item .image {
@@ -2721,14 +2725,16 @@ input, select, textarea {
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
+			/* margin: 4em 0 0 0; */
 		}
 
 			#main > section:first-child {
 				border-top: 0;
-				margin-top: 0;
 				padding-top: 0;
+				margin-top: -75px;
+				margin-left: -25px;
+				/* margin-top: 0; */
 			}
 
 /* Poptrox */
