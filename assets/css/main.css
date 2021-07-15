@@ -2057,7 +2057,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			/* background: url("images/overlay.png"); */
+			background: url("images/overlay.png");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2110,7 +2110,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
-			border: solid 2px #e0e0e0;
+			/* border: solid 2px #e0e0e0; */
 		}
 
 		.image.left {
@@ -2642,7 +2642,7 @@ input, select, textarea {
 		position:fixed;
 		text-align: right;
 		top: 0;
-		width: 38%;
+		width: 35%;
 		/* width: 35%; */
 	}
 
@@ -2688,11 +2688,20 @@ input, select, textarea {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			/* color: rgba(255, 255, 255, 0.4); */
+		/* #footer .icons a {
 			color: rgba(255, 255, 255, .8);
 			font-size: 25px;
-		}
+		} */
+	#gitHub-icon {
+		color:black;
+		/* background-color: #cdd9e5; */
+		font-size: 25px;
+	}
+
+	#linkedIn-icon {
+		color: #0a66c2;
+		font-size: 25px;
+	}
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
@@ -2724,7 +2733,7 @@ input, select, textarea {
 
 	#main {
 		/* margin-left: 35%; */
-		margin-left: 43%;
+		margin-left: 37%;
 		max-width: 58em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
