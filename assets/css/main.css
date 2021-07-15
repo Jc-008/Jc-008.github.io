@@ -84,11 +84,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		/* background: #fff; */
 		/* background: #fff5ee; */
 		/* background:#534141; */
 		/* background:#554341; */
-		background:#FEFEFA;
+		/* background:#FEFEFA; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -159,7 +159,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
-		line-height: 1.5em;
+		line-height: 1.0em;
+		/* line-height: 1.5em; */
 	}
 
 	h3 {
@@ -2109,6 +2110,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+			border: solid 2px #e0e0e0;
 		}
 
 		.image.left {
@@ -2581,11 +2583,13 @@ input, select, textarea {
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
+			border: solid 2px #e0e0
 		}
 
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			font-weight: 700;
 		}
 
 		.work-item h3:hover {
@@ -2617,7 +2621,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		/* background-color: #1f1815; */
+		background-color: #222035;
 		/* background-attachment: fixed,								fixed; */
 		background-attachment: fixed;
 		/* background-image: url("../../images/lines_of_code-L.jpg"), url("../../images/lines_of_code-L.jpg"); */
@@ -2637,7 +2642,8 @@ input, select, textarea {
 		position:fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 38%;
+		/* width: 35%; */
 	}
 
 		#header > * {
@@ -2717,15 +2723,17 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		/* margin-left: 35%; */
+		margin-left: 43%;
+		max-width: 58em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 4px #dbdbdb;
 			padding: 4em 0 0 0;
+			width: 105%;
 			/* margin: 4em 0 0 0; */
 		}
 
@@ -2734,6 +2742,7 @@ input, select, textarea {
 				padding-top: 0;
 				margin-top: -75px;
 				margin-left: -25px;
+				width: 105%;
 				/* margin-top: 0; */
 			}
 
