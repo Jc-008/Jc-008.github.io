@@ -125,7 +125,7 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			/* color: #49bf9d !important; */
-			/* color: #2b263a !important; */
+			color: #8b6fe0 !important;
 			text-decoration: none;
 		}
 
@@ -2594,6 +2594,8 @@ input, select, textarea {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
 			font-weight: 700;
+			display:flex;
+			justify-content: center;
 		}
 
 		.work-item h3:hover {
