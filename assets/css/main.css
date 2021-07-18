@@ -128,7 +128,9 @@ input, select, textarea {
 			text-decoration: none;
 			/* color: #e7a993 !important; */
 			/* color: #ca704f !important; */
-			color: orange !important;
+			/* color: orange !important; */
+			/* color: #ff9944 !important; */
+			color: #E68000 !important;
 		}
 
 	strong, b {
@@ -2596,11 +2598,13 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
-			font-weight: 700;
 			display:flex;
 			justify-content: center;
+			font-size: 1em;
+			font-weight: 700;
+			margin: 0 0 0.5em 0;
+			padding-bottom: 10px;
+			margin-top: -10px;
 		}
 
 		.work-item h3:hover {
@@ -2613,10 +2617,20 @@ input, select, textarea {
 			margin: 0;
 		}
 
-/* Work Section */
-/* .name-and-repo-div {
-	display:flex;
-} */
+/* Project Section */
+
+
+
+/* About me Section */
+.career-text{
+	/* color:#FF9944; */
+	/* color:#FF8C00; */
+	color:#E68000;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	/* text-shadow: 5px 5px 8px #787878; */
+}
 
 /* Header */
 
