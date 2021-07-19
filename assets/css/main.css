@@ -2180,7 +2180,8 @@ input, select, textarea {
 				*/
 				border-radius: 100%;
 				width: 177%;
-				margin-left: -55px;
+				/* margin-left: -55px; */
+				margin-left: -40px;
 			}
 
 /* List */
@@ -3326,6 +3327,7 @@ input, select, textarea {
 			#main > section {
 				/* margin: 2.25em 0 0 0; */
 				padding: 2.25em 0 0 0;
+				margin-left: -15px;
 			}
 
 	}
