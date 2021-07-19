@@ -2160,12 +2160,6 @@ input, select, textarea {
 				/* width: 10rem */
 			}
 
-
-		/* .thrifTee-img{
-			height:353.797px;
-			width: 440.797px;
-		} */
-
 		.image.avatar {
 			border-radius: 100%;
 		}
@@ -2180,8 +2174,8 @@ input, select, textarea {
 				*/
 				border-radius: 100%;
 				width: 177%;
+				margin-left: -38px;
 				/* margin-left: -55px; */
-				margin-left: -40px;
 			}
 
 /* List */
@@ -2627,9 +2621,22 @@ input, select, textarea {
 /* About me Section */
 .career-text-container {
 	display: flex;
+	margin: 1em;
 }
 
-.career-text{
+.first-career-container {
+	display: flex;
+}
+
+.next-career-container{
+	display: flex;
+}
+
+.career-text-pt1 {
+	/* margin-left: 10px; */
+}
+
+.career-text-main{
 	/* color:#FF9944; */
 	/* color:#FF8C00; */
 	color:#E68000;
@@ -2637,7 +2644,11 @@ input, select, textarea {
 	font-style: italic;
 	font-weight: 600;
 	/* text-shadow: 5px 5px 8px #787878; */
-	margin-left: 5px;
+	margin-left: 8px;
+}
+
+.career-text-pt2 {
+	margin-left: 10px;
 }
 
 /* Header */
@@ -3328,6 +3339,28 @@ input, select, textarea {
 				/* margin: 2.25em 0 0 0; */
 				padding: 2.25em 0 0 0;
 				margin-left: -15px;
+			}
+
+		/* About Me Section */
+			.career-text-container {
+				display:flex;
+				flex-wrap: wrap;
+
+			}
+
+			.career-text-pt1{
+				width: 35%;
+			}
+
+			.career-text-main {
+				/* width: 25px; */
+				margin-bottom: 1em;
+			}
+
+			.career-text-pt2{
+				width: 45%;
+				margin-left: 0px;
+				margin-bottom: 1em;
 			}
 
 	}
