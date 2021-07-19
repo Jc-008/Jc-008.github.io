@@ -1727,8 +1727,8 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -23px;
-					/* margin-left: -1.5em; */
+					/* margin-left: -23px; */
+					margin-left: -1.5em;
 				}
 
 					.row > * {
@@ -3319,7 +3319,7 @@ input, select, textarea {
 		/* Main */
 			#main {
 				padding: 2.25em 1.5em 0.25em 1.5em;
-				margin-left: 5px;
+				margin-left: 4px;
 				width: 100vw;
 			}
 
