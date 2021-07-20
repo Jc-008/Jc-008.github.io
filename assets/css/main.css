@@ -2656,6 +2656,43 @@ input, select, textarea {
 	margin-left: 10px;
 }
 
+
+/* Skills Section */
+
+ ul.skill-icons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	list-style: none;
+	padding-left: 0;
+}
+
+.icon-right {
+	display:flex;
+	align-content: center;
+	margin-left: 25%;
+	padding-bottom: 30px;
+}
+
+.icon-left {
+	display:flex;
+	align-content: center;
+	margin-left: 25%;
+	padding-bottom: 30px;
+
+}
+
+.logo {
+	font-size: 5rem;
+}
+
+.tech {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+
+
 /* Header */
 
 	#header {
