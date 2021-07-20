@@ -89,6 +89,7 @@ input, select, textarea {
 		/* background:#534141; */
 		/* background:#554341; */
 		/* background:#FEFEFA; */
+		background-color: #494D5F;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2693,7 +2694,8 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position:fixed;
-		text-align: right;
+		/* text-align: right; */
+		text-align: center;
 		top: 0;
 		width: 35%;
 		/* width: 35%; */
