@@ -91,6 +91,7 @@ input, select, textarea {
 		/* background:#FEFEFA; */
 
 		background-color: #494D5F;
+		/* background-color: #c7bfb3; */
 		/* background-color: #1c1d24; */
 		/* background-color: #1c1c2a; */
 
@@ -1850,8 +1851,9 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		/* background: #f7f7f7; */
-		background: #b6b6b4;
+		/* background: #b6b6b4; */
+		/* background: #b9ae9f; */
+		background: #c7bfb3;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2682,7 +2684,10 @@ input, select, textarea {
 	grid-template-rows: auto;
 	list-style: none;
 	padding-left: 0;
-	background-color:#B6B6B4;
+	border-radius: 0.35em;
+	/* background-color:#B6B6B4; */
+	/* background-color: #b9ae9f; */
+	background-color: #c7bfb3;
 }
 
 .icon-right {
