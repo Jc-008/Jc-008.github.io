@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic"); */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Roboto:ital,wght@0,100;0,500;1,100;1,500&display=swap');
 
 /*
 	Strata by HTML5 UP
@@ -89,7 +89,11 @@ input, select, textarea {
 		/* background:#534141; */
 		/* background:#554341; */
 		/* background:#FEFEFA; */
+
 		background-color: #494D5F;
+		/* background-color: #1c1d24; */
+		/* background-color: #1c1c2a; */
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -104,7 +108,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		/* color: #a2a2a2; */
+		color:rgba(255, 255, 255, .75);
+		/* color:rgba(255, 255, 255, 1); */
 		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 		font-family: "'Roboto'", Helvetica, sans-serif;
 		font-size: 16pt;
@@ -135,7 +141,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		/* color: #787878; */
+		color:rgba(255, 255, 255, .75);
 		font-weight: 500;
 		/* font-weight: 700; */
 	}
@@ -145,12 +152,14 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+		/* color: #787878; */
+		font-family: 'Montserrat', sans-serif;
+		color:white;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -159,6 +168,8 @@ input, select, textarea {
 			color: inherit;
 			margin-left: 5px;
 			margin-right: 5px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
 			/* text-decoration: none; */
 		}
 
@@ -1839,7 +1850,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		/* background: #f7f7f7; */
+		background: #b6b6b4;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1863,7 +1875,9 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			/* border-color: #49bf9d; */
+			border-color: white;
+			color:black;
 		}
 
 	select {
@@ -1980,7 +1994,8 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: #b2b2b2 !important;
+		/* color: #b2b2b2 !important; */
+		color: black !important;
 		opacity: 1.0;
 	}
 
@@ -2480,7 +2495,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		/* color: #787878 !important; */
-		color: white !important;
+		color:rgba(255, 255, 255, .75) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2617,6 +2632,8 @@ input, select, textarea {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			font-weight: 100;
+			font-family: 'Roboto', sans-serif;
 		}
 
 /* Project Section */
@@ -2665,6 +2682,7 @@ input, select, textarea {
 	grid-template-rows: auto;
 	list-style: none;
 	padding-left: 0;
+	background-color:#B6B6B4;
 }
 
 .icon-right {
@@ -2689,6 +2707,8 @@ input, select, textarea {
 .tech {
 	margin-left: 25px;
 	margin-top: 25px;
+	color:black;
+	font-family: monospace;
 }
 
 
@@ -2755,11 +2775,13 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color:rgba(255, 255, 255, .75);
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color:rgba(255, 255, 255, .75);
 		}
 
 		#header h1 {
