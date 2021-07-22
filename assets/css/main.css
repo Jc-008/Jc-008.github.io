@@ -2689,19 +2689,22 @@ input, select, textarea {
 	/* background-color:#B6B6B4; */
 	/* background-color: #b9ae9f; */
 	background-color: #c7bfb3;
+	width: 80%;
+	margin-left: 85px;
 }
 
 .icon-right {
 	display:flex;
 	align-content: center;
-	margin-left: 25%;
+	margin-left: 15%;
 	padding-bottom: 30px;
+	/* margin-left: 25%; */
 }
 
 .icon-left {
 	display:flex;
 	align-content: center;
-	margin-left: 25%;
+	margin-left: 28%;
 	padding-bottom: 30px;
 
 }
@@ -2715,6 +2718,7 @@ input, select, textarea {
 	margin-top: 25px;
 	color:black;
 	font-family: monospace;
+	font-weight: bold;
 }
 
 
