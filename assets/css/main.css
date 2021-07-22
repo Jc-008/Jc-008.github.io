@@ -89,11 +89,12 @@ input, select, textarea {
 		/* background:#534141; */
 		/* background:#554341; */
 		/* background:#FEFEFA; */
-
-		background-color: #494D5F;
 		/* background-color: #c7bfb3; */
 		/* background-color: #1c1d24; */
-		/* background-color: #1c1c2a; */
+
+		/* background-color: #494D5F; */
+		/* background-color:#494d5ffa; */
+		background-color:#494d5ffa;
 
 	}
 
