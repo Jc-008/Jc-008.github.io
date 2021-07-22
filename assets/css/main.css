@@ -1855,12 +1855,13 @@ input, select, textarea {
 		background: #efefef;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 0.75em;
 		text-decoration: none;
 		width: 100%;
+		font-family: 'Roboto', sans-serif;
 	}
 
 		input[type="text"]:invalid,
