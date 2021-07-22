@@ -1852,9 +1852,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		/* background: #b6b6b4; */
-		/* background: #b9ae9f; */
-		background: #c7bfb3;
+		background: #efefef;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
