@@ -2642,7 +2642,7 @@ input, select, textarea {
 .career-text-pt1 {
 	/* margin-left: 10px; */
 	font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .career-text-main{
@@ -2652,14 +2652,13 @@ input, select, textarea {
 	font-size: 25px;
 	font-style: italic;
 	font-weight: 600;
-	/* text-shadow: 5px 5px 8px #787878; */
 	margin-left: 8px;
 }
 
 .career-text-pt2 {
 	margin-left: 10px;
 	font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .aboutMe-text,
