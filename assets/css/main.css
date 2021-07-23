@@ -2685,7 +2685,8 @@ input, select, textarea {
 	border-radius: 0.35em;
 	/* background-color:#B6B6B4; */
 	/* background-color: #b9ae9f; */
-	background-color: #c7bfb3;
+	/* background-color: #c7bfb3; */
+	background-color:rgba(199, 191, 179, .75);
 	width: 80%;
 	margin-left: 85px;
 }
@@ -2693,7 +2694,7 @@ input, select, textarea {
 .icon-right {
 	display:flex;
 	align-content: center;
-	margin-left: 15%;
+	margin-left: 20%;
 	padding-bottom: 30px;
 	/* margin-left: 25%; */
 }
@@ -2701,7 +2702,7 @@ input, select, textarea {
 .icon-left {
 	display:flex;
 	align-content: center;
-	margin-left: 28%;
+	margin-left: 20%;
 	padding-bottom: 30px;
 
 }
