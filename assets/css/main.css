@@ -2171,13 +2171,11 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				/* border-radius: 100%;
-				width: 100%;
-				*/
 				border-radius: 100%;
-				width: 177%;
-				margin-left: -38px;
-				/* margin-left: -55px; */
+				width: 200%;
+				margin-left: -68px;
+				/* width: 177%;
+				margin-left: -38px; */
 			}
 
 /* List */
@@ -2480,8 +2478,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		/* color: #787878 !important; */
-		color:rgba(255, 255, 255, .75) !important;
+		color:white !important;
+		/* color:rgba(255, 255, 255, .75) !important; */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2788,12 +2786,13 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			/* color: #ffffff; */
-			color:rgba(255, 255, 255, .75);
+			color: #ffffff;
+			/* color:rgba(255, 255, 255, .75); */
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			/* color: rgba(255, 255, 255, 0.5); */
+			color: #ffffff;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2816,14 +2815,14 @@ input, select, textarea {
 	} */
 
 	#gitHub-icon {
-		color:#757575;
 		/* background-color: #cdd9e5; */
-		font-size: 30px;
+		color:#ffffff;
+		font-size: 35px;
 	}
 
 	#linkedIn-icon {
 		color: #0a66c2;
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	#footer .copyright {
