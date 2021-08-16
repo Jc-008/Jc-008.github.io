@@ -85,8 +85,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-color:#494d5ffa;
-		background-color:#292438;
+		background-color:#2b2338;
+		/* background-color:#292438; */
+		/* background-color:#494d5ffa; */
 
 	}
 
@@ -127,8 +128,6 @@ input, select, textarea {
 	strong, b {
 		color:rgba(255, 255, 255, .75);
 		font-weight: 500;
-		/* color: #787878; */
-		/* font-weight: 700; */
 	}
 
 	em, i {
@@ -165,7 +164,6 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.0em;
-		/* line-height: 1.5em; */
 	}
 
 	h3 {
