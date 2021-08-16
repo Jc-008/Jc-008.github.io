@@ -85,9 +85,8 @@ input, select, textarea {
 	}
 
 	body {
-		/* background-color: #494D5F; */
-		/* background-color:#494d5ffa; */
 		background-color:#494d5ffa;
+		background-color:#292438;
 
 	}
 
@@ -2681,12 +2680,10 @@ input, select, textarea {
 	list-style: none;
 	padding-left: 0;
 	border-radius: 0.35em;
-	/* background-color:#B6B6B4; */
-	/* background-color: #b9ae9f; */
-	/* background-color: #c7bfb3; */
-	background-color:rgba(199, 191, 179, .75);
+	background-color: #363543;
 	width: 80%;
 	margin-left: 85px;
+	/* background-color:rgba(199, 191, 179, .75); */
 }
 
 .icon-right {
@@ -2712,7 +2709,8 @@ input, select, textarea {
 .tech {
 	margin-left: 25px;
 	margin-top: 25px;
-	color:black;
+	/* color:black; */
+	color:white;
 	font-family: monospace;
 	font-weight: bold;
 }
@@ -2787,11 +2785,9 @@ input, select, textarea {
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
-			/* color:rgba(255, 255, 255, .75); */
 		}
 
 		#header h1 {
-			/* color: rgba(255, 255, 255, 0.5); */
 			color: #ffffff;
 			font-size: 1.35em;
 			line-height: 1.75em;
@@ -2809,13 +2805,7 @@ input, select, textarea {
 		margin: 1em 0 0 0;
 	}
 
-	/* #footer .icons a {
-		color: rgba(255, 255, 255, .8);
-		font-size: 25px;
-	} */
-
 	#gitHub-icon {
-		/* background-color: #cdd9e5; */
 		color:#ffffff;
 		font-size: 35px;
 	}
@@ -2826,7 +2816,6 @@ input, select, textarea {
 	}
 
 	#footer .copyright {
-		/* color: rgba(255, 255, 255, 0.4); */
 		color: #757575;
 		font-size: 0.8em;
 		list-style: none;
@@ -2856,9 +2845,6 @@ input, select, textarea {
 
 	#main {
 		margin-left: 37%;
-		/* margin-left: 37%; */
-		/* max-width: 58em; */
-		/* max-width: 55em; */
 		max-width: 52em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
