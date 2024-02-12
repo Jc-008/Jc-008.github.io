@@ -2216,11 +2216,20 @@ input[type="radio"]+label:before {
 }
 
 
-.figmaImg {
+.cSharpImg {
 	height: 80px;
 	width: 80px;
 }
 
+.elasticsearchImg {
+	height: 80px;
+	width: 80px;
+}
+
+.figmaImg {
+	height: 80px;
+	width: 80px;
+}
 
 
 /* List */
