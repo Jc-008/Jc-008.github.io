@@ -2215,6 +2215,14 @@ input[type="radio"]+label:before {
 				margin-left: -38px; */
 }
 
+
+.figmaImg {
+	height: 80px;
+	width: 80px;
+}
+
+
+
 /* List */
 
 ol {
